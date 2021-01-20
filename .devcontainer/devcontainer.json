@@ -1,0 +1,16 @@
+{
+	"name": "visualizer.gx.ag",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": { "VARIANT": "14" }
+	},
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+	"extensions": [
+		"dbaeumer.vscode-eslint"
+	],
+	"forwardPorts": [
+		8080
+	]
+}

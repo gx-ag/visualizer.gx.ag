@@ -1,0 +1,4 @@
+node_modules/
+.terraform/
+dist/
+visualizer.gx.ag.zip
