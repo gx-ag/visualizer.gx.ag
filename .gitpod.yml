@@ -1,0 +1,6 @@
+tasks:
+  - init: npm install && npm run build
+    command: npm run start -- --public "$(gp url 8888 | sed 's+https://++'):443"
+ports:
+  - port: 8888
+    onOpen: open-browser
