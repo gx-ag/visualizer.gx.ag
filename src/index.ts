@@ -20,6 +20,7 @@ const randomVideos = [
   /* First Snow - Kerusu */                                 'LHODkrToLM8',
   /* Guided Rhythm - Tantrum Desire */                      'SJ_RATsYJP0',
   /* I Said Meow - Azazal & Said */                         'Byuhn6hkJbM',
+  /* Idols (EDM Mashup) - Virtual Riot */                   'nEt1bKGlCpM',
   /* Just Imagine - Tsunamii */                             'J-k2JaGsL_I',
   /* Kitty - Snails House */                                '1EHfNGxy4R8',
   /* Left Behind - Rameses B */                             'q3JrfYEWaUI',
