@@ -4,3 +4,5 @@ tasks:
 ports:
   - port: 8888
     onOpen: open-browser
+image:
+  file: .gitpod.Dockerfile
