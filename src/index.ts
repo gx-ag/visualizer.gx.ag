@@ -86,6 +86,7 @@ function getImageDataURL(image: Image): string {
   dom.createSpecs(specs);
   dom.setTitle(info.title, colors.primary);
   dom.setArtist(info.artist, colors.primary);
+  dom.setLink('https://www.youtube.com/watch?v=' + video);
   dom.setThumbnailImage(dataURL);
   document.title = `${info.title} - ${info.artist}`;
 

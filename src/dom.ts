@@ -8,6 +8,7 @@ const elements = {
   loadingPercent: document.getElementById('loading-percent')!,
   bg: document.getElementById('bg')!,
   bgOverlay: document.getElementById('bg-overlay')!,
+  link: document.getElementById('link')!,
   thumbnail: document.getElementById('thumbnail')!,
   specs: document.getElementById('specs')!,
   spec: [] as HTMLDivElement[],
@@ -132,6 +133,10 @@ export function setArtist(artist: string, color: Color) {
 
 export function setThumbnailImage(url: string) {
   elements.thumbnail.setAttribute('src', url);
+}
+
+export function setLink(href: string) {
+  elements.link.setAttribute('href', href);
 }
 
 export function createFrequencyBars(count: number) {
