@@ -12,10 +12,11 @@
   },
   "dependencies": {
     "can-autoplay": "^3.0.0",
-    "three": "^0.122.0"
+    "three": "^0.127.0"
   },
   "devDependencies": {
     "@types/can-autoplay": "^3.0.0",
+    "chokidar": "^3.5.1",
     "copy-webpack-plugin": "^6.3.1",
     "ts-loader": "^8.0.11",
     "typescript": "^4.0.5",

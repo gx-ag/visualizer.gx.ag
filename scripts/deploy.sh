@@ -1,4 +1,5 @@
 set -e
+export AWS_PAGER=""
 PROFILE=jabu
 TERRAFORM_OUTPUT=`cd infrastructure/prod && terraform output -json`
 BUCKET_NAME=`echo "$TERRAFORM_OUTPUT" | jq -r ".bucket_name.value"`
